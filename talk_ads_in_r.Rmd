@@ -1,6 +1,5 @@
 ---
-title: "Teaching Advanced Data Science in R"
-subtitle: "Successes and Failures"
+title: "Teaching Advanced Data Science in R: Successes and Failures"
 author: "Lisa Lendway, PhD"
 institute: "Macalester College"
 output:
@@ -23,27 +22,14 @@ Course website: https://advanced-ds-in-r.netlify.app/
 
 ---
 
-## Course learning objectives
-
-* Make using git and GitHub a habit. 
-* Create a website.  
-* Become familiar with more machine learning models and methods and the associated R code.  
-* Gain confidence in learning new R functions on your own and experience teaching others to use them.  
-* Understand what it means to "put a model into production".  
-* Appreciate the importance of data ethics/justice and integrate it into all aspects of data science.  
-* Practice working in a group to achieve a shared goal. 
-
-Course website: https://advanced-ds-in-r.netlify.app/
-
----
-
 ## Course logistics
 
 * Mostly online using Zoom. Mondays, Wednesdays, and Fridays from 11AM-1PM for 7.5 weeks. 
 * Course material was posted to the course website. Students were expected to read through that on their own.  
-* Monday classes were for working through weekly exercises.  
-* Wednesday classes had a speaker from industry for 1 hour and 1 hour was for working through weekly exercises.  
-* Fridays were group presentations by students, where they taught the rest of the class about an R package or set of related functions. Topics included {tidytext}, {sf}, regular expressions, and more.  The groups also created a small set of exercises for the rest of the students.    
+* This was a Capstone Course, so many students will use the projects from it to give a presentation their senior year.  
+* Monday classes were for working through weekly exercises. I referred to these as "Modeling Mondays".
+* "Wisdom Wednesday" classes had a speaker from industry for 1 hour and 1 hour was for working through weekly exercises. 
+* "Function Fridays" were group presentations by students, where they taught the rest of the class about an R package or set of related functions. Topics included {tidytext}, {sf}, regular expressions, and more.  The groups also created a small set of exercises for the rest of the students.    
 * The last three weeks of class were reserved for working on a class project.  
 
 Course website: https://advanced-ds-in-r.netlify.app/
@@ -51,13 +37,15 @@ Course website: https://advanced-ds-in-r.netlify.app/
 ---
 ## Successes and Failures
 
-* Next, I will talk about successes and failures within each course learning objective.  
+* Next, I will talk about successes and failures within each course learning objective, which I have put briefly in the titles of each slide.
 * I'll end by discussing successes and failures that were unrelated to the course learning objectives.
 
+Course website: https://advanced-ds-in-r.netlify.app/
 
 ---
 ## Git/Github
 
+**Make using git and GitHub a habit. Get more comfortable with using it when collaborating with others - branching, pull requests, etc.**
 
 .pull-left[
 **Successes**
@@ -79,16 +67,18 @@ Course website: https://advanced-ds-in-r.netlify.app/
 ---
 ## Create a website
 
+**Create a website and add work from the course that you can share with future employers, advisers, collaborators, etc.**
+
 .pull-left[
 **Successes**
 * They all created websites!  
 * A few of them made really impressive websites.  
-* They listed to a reflected on Jacueline Nolis and Emily Robinson's *Build a Career in Data Science* podcast episode that discussed making websites. 
+* They listened to and reflected on Jacqueline Nolis and Emily Robinson's *Build a Career in Data Science* podcast episode 4 that discussed making websites. 
 ]
 
 .pull-right[
 **Failures**
-* Many were VERY basic, using defaults except changing their names. But, I didn't require anything more.  
+* Many were VERY basic, using defaults except changing their names. Next time, I should make more specific requirements. 
 * Most of them didn't choose to post anything on them. Again, I didn't require this.
 
 ]
@@ -97,9 +87,11 @@ Course website: https://advanced-ds-in-r.netlify.app/
 ---
 ## Machine Learning methods
 
+**Become familiar with more machine learning models and methods and the associated R code. **
+
 .pull-left[
 **Successes**
-* Learned {tidymodels}, stacking/ensembling, interpreteble machine learning methods, boosting, and using H20 in R. 
+* Learned {tidymodels}, stacking/ensembling, interpreaeble machine learning methods, boosting, and using H20 in R. 
 ]
 
 .pull-right[
@@ -111,21 +103,27 @@ Course website: https://advanced-ds-in-r.netlify.app/
 
 ---
 ## Learning on their own and teaching others
+
+**Gain confidence in learning new R functions on your own and experience teaching others to use them.**  
       
 .pull-left[
 **Successes**
 * Every student helped teach a new package or set of functions to the class. 
 * Students did a lot of problem solving on their own, without my help, to prepare their materials.  
+* I gave them a list of topics to choose from and gave the option to choose others, but all the students chose one of the topics I suggested.
 ]
 
 .pull-right[
 **Failures**
-* I should check in with the group before their presentation to assure the topic covers the right amount of material and to make sure the code is up-to-date. Some groups used older code, which could be confusing when searching the internet for how to expand it. 
+* I should check in with the group before their presentation to assure the topic covers the right amount of material and to make sure the code is up-to-date. Some groups used older code, which could be confusing when searching the internet for how to expand it.  
+* Provide a more detailed rubric of what I expect.
 
 ]
 
 ---
 ## Put a model into production
+
+**Understand what it means to "put a model into production".** 
 
       
 .pull-left[
@@ -143,6 +141,7 @@ Course website: https://advanced-ds-in-r.netlify.app/
 ---
 ## Importance of data ethics/justice
 
+**Appreciate the importance of data ethics/justice and integrate it into all aspects of data science.**  
       
 .pull-left[
 **Successes**
@@ -164,12 +163,13 @@ Course website: https://advanced-ds-in-r.netlify.app/
 **Successes**
 
 * Students usually worked on weekly assignments together.  
-* They 
+* They did two larger group projects: the R package presentation and the final project.  
 ]
 
 .pull-right[
 **Failures**
 
+* Give students ideas for roles members of the group can play, eg. Leader, Recorder, Checker, and Spokesperson (https://serc.carleton.edu/introgeo/cooperative/roles.html). 
 ]
 
 ---
@@ -177,20 +177,29 @@ Course website: https://advanced-ds-in-r.netlify.app/
 ## Other things that went well
 
 * The students enjoyed having the speakers every week. It gave them many different perspectives on work as a data scientist.  
-* 
+* Class format worked pretty well. It was nice that they had a lot of time in class to work through problems, which is where they ran into a lot of questions.  
 
 ---
 
 ## What didn't go well? (controllable)
+
+* Needed to start the projects earlier so they had time to make some mistakes at the beginning and start over if they desired.  
+* Shorten the homework assignments and make project work part of the weekly assignments.  
+* Students wanted more illustrations from me. I could highlight an example or two in class rather than having them move right into working on assignments.  
 
 ---
 
 ## What didn't go well? (no control)
 
 * The 7.5 week module, rather than a 15 week semester felt too condensed.  
-* Students wanted more illustrations from me. I could highlight an example or two in class rather than having them move right into working on assignments.  
-* They needed more time for their projects. They didn't have time to make mistakes and start over or to change topics.  
 * SO MUCH more I wanted to cover and in SO MUCH more detail. It might be better to skip some topics or try to incorporate some into their machine learning course. For example, if they learned {tidymodels} in that course, I could jump right into stacking/ensembling in this course.  
 
 
+---
+
+## THANK YOU!
+
+Thanks for listening to this brief talk. If you teach similar material, I'd love to chat about your experiences. Reach out by email, `llendway@macalester.edu`, or on Twitter `@lisalendway`.
+
+Course website: https://advanced-ds-in-r.netlify.app/
 
