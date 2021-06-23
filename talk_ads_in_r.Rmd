@@ -1,7 +1,7 @@
 ---
 title: "Teaching Advanced Data Science in R: Successes and Failures"
-author: "Lisa Lendway, PhD"
-institute: "Macalester College"
+author: "Lisa Lendway, Assistant Professor, NTT"
+institute: "Macalester College, St. Paul, MN USA"
 output:
   xaringan::moon_reader:
     css: ["useR", "useR-fonts"]
@@ -9,35 +9,19 @@ output:
 ---
 
 
-
-## Who am I (professionally)?
-
-* Non-tenure-track Assistant Professor of Statistics and Data Science at Macalester College, a small liberal arts college in St. Paul, MN USA.  
-
-* I have been teaching here for 4 years (and am also an alum!), but I also have experience in industry working as a statistician and data scientist. 
-
-* This year, I created a new course called "Advanced Data Science in R", and that's what I'll be talking about. 
-
-Course website: https://advanced-ds-in-r.netlify.app/
-
----
-
 ## Course logistics
 
-* Mostly online using Zoom. Mondays, Wednesdays, and Fridays from 11AM-1PM for 7.5 weeks. 
-* Course material was posted to the course website. Students were expected to read through that on their own.  
-* This was a Capstone Course, so many students will use the projects from it to give a presentation their senior year.  
-* Monday classes were for working through weekly exercises. I referred to these as "Modeling Mondays".
-* "Wisdom Wednesday" classes had a speaker from industry for 1 hour and 1 hour was for working through weekly exercises. 
-* "Function Fridays" were group presentations by students, where they taught the rest of the class about an R package or set of related functions. Topics included {tidytext}, {sf}, regular expressions, and more.  The groups also created a small set of exercises for the rest of the students.    
-* The last three weeks of class were reserved for working on a class project.  
+* Advanced Data Science in R is a new course for Junior and Senior Applied Math and Statistics majors.
+* This year, the course took place Mondays, Wednesdays, and Fridays from 11AM-1PM on Zoom for 7.5 weeks. 
+* Course material was posted to the course website, and students were expected to read through that on their own.  
+* Class time was dedicated to working on exercises or the final project, student presentations on R packages, and listening to guest speakers from various industries. 
 
 Course website: https://advanced-ds-in-r.netlify.app/
 
 ---
 ## Successes and Failures
 
-* Next, I will talk about successes and failures within each course learning objective, which I have put briefly in the titles of each slide.
+* Next, I will talk about successes and failures within each course learning objective.
 * I'll end by discussing successes and failures that were unrelated to the course learning objectives.
 
 Course website: https://advanced-ds-in-r.netlify.app/
@@ -50,8 +34,7 @@ Course website: https://advanced-ds-in-r.netlify.app/
 .pull-left[
 **Successes**
 
-* Students became more comfortable with Git and Github.  
-* They used it for each of their assignments, providing a link to the repo each time.  
+* Students used it for each of their assignments, providing a link to the repo each time.  
 * They were all collaborators on the group project.
 
 ]
@@ -72,13 +55,11 @@ Course website: https://advanced-ds-in-r.netlify.app/
 .pull-left[
 **Successes**
 * They all created websites!  
-* A few of them made really impressive websites.  
-* They listened to and reflected on Jacqueline Nolis and Emily Robinson's *Build a Career in Data Science* podcast episode 4 that discussed making websites. 
 ]
 
 .pull-right[
 **Failures**
-* Many were VERY basic, using defaults except changing their names. Next time, I should make more specific requirements. 
+* Many were VERY basic, including only a landing page with their name. Next time, I should make more specific requirements. 
 * Most of them didn't choose to post anything on them. Again, I didn't require this.
 
 ]
@@ -91,14 +72,13 @@ Course website: https://advanced-ds-in-r.netlify.app/
 
 .pull-left[
 **Successes**
-* Learned {tidymodels}, stacking/ensembling, interpreaeble machine learning methods, boosting, and using H20 in R. 
+* Students learned the {tidymodels} framework, stacking, interpretable machine learning methods, boosting, and using H20 in R. 
 ]
 
 .pull-right[
 **Failures**
-* Learning {tidymodels} wasn't as much of a review as I thought it would be. Since they weren't used to this framework, they had a tough time with the code at first.  
+* Reviewing machine learning via {tidymodels} was more difficult than I realized it would be since they were new to the code.
 * We didn't have time for deep learning.  
-* 
 ]
 
 ---
@@ -108,16 +88,14 @@ Course website: https://advanced-ds-in-r.netlify.app/
       
 .pull-left[
 **Successes**
-* Every student helped teach a new package or set of functions to the class. 
+* Students gave group presentations on a package or set of functions. The list of topics I gave them to choose from was broad enough to satisfy all student interest.
 * Students did a lot of problem solving on their own, without my help, to prepare their materials.  
-* I gave them a list of topics to choose from and gave the option to choose others, but all the students chose one of the topics I suggested.
+
 ]
 
 .pull-right[
 **Failures**
-* I should check in with the group before their presentation to assure the topic covers the right amount of material and to make sure the code is up-to-date. Some groups used older code, which could be confusing when searching the internet for how to expand it.  
-* Provide a more detailed rubric of what I expect.
-
+* I should check in with the group before their presentation to assure the topic covers the right amount of material and to make sure they aren't using out-of-date code.  
 ]
 
 ---
@@ -128,14 +106,12 @@ Course website: https://advanced-ds-in-r.netlify.app/
       
 .pull-left[
 **Successes**
-* Students saved a model they created using the `saveRDS()` function.  
-* They used the saved model in a shiny app.  
+* Students saved a model they created using the `saveRDS()` function and used the saved model in a shiny app.  
 ]
 
 .pull-right[
 **Failures**
-* These two steps helped introduce the idea of putting a model into production, but they were still missing a lot of steps.  
-* In the future, I would like to discuss using Docker and the {plumber} R package to more closely resemble what it's like to put a model in production.  
+* In the future, use Docker and the {plumber} R package to more closely resemble what it's like to put a model in production.  
 ]
 
 ---
@@ -145,54 +121,37 @@ Course website: https://advanced-ds-in-r.netlify.app/
       
 .pull-left[
 **Successes**
-* There was a reading/viewing exercise on each homework assignment about data ethics/justice. Examples included watching *Coded Bias* and reading Deb Raji's Tweet thread about popular misconceptions people have about race and gender bias in algorithms.  
+* There was a reading or viewing exercise on each homework assignment about data ethics/justice. 
 * Student reflected on what they watched/read.
 ]
 
 .pull-right[
 **Failures**
-* We should discuss this as a group or even watch/read as a group.  
-* Create more reflection questions within the assignment where they are working through the machine learning problems. 
-]
-
----
-## Working in a group to achieve a shared goal
-
-      
-.pull-left[
-**Successes**
-
-* Students usually worked on weekly assignments together.  
-* They did two larger group projects: the R package presentation and the final project.  
-]
-
-.pull-right[
-**Failures**
-
-* Give students ideas for roles members of the group can play, eg. Leader, Recorder, Checker, and Spokesperson (https://serc.carleton.edu/introgeo/cooperative/roles.html). 
+* Reserve some time in class for discussions or maybe even for watching/reading.
+* The reflections weren't directly related to the problems on their assignment. Find ways to link them together better. 
 ]
 
 ---
 
 ## Other things that went well
 
-* The students enjoyed having the speakers every week. It gave them many different perspectives on work as a data scientist.  
+* Students enjoyed having the speakers from industry every week. It gave them many different perspectives and connections.
 * Class format worked pretty well. It was nice that they had a lot of time in class to work through problems, which is where they ran into a lot of questions.  
 
 ---
 
-## What didn't go well? (controllable)
+## What didn't go well? 
+
+Controllable:
 
 * Needed to start the projects earlier so they had time to make some mistakes at the beginning and start over if they desired.  
-* Shorten the homework assignments and make project work part of the weekly assignments.  
-* Students wanted more illustrations from me. I could highlight an example or two in class rather than having them move right into working on assignments.  
+* Homework assignments were too long. Make those shorter and make project work part of the weekly assignments.  
+* SO MUCH more I wanted to cover and in SO MUCH more detail. It might be better to skip some topics or try to incorporate some into their machine learning course. For example, if they learned {tidymodels} in that course, I could skip it in this course. 
 
----
+Uncontrollable:
 
-## What didn't go well? (no control)
-
-* The 7.5 week module, rather than a 15 week semester felt too condensed.  
-* SO MUCH more I wanted to cover and in SO MUCH more detail. It might be better to skip some topics or try to incorporate some into their machine learning course. For example, if they learned {tidymodels} in that course, I could jump right into stacking/ensembling in this course.  
+* The 7.5 week intense module, rather than a 15 week semester felt too condensed.  
+ 
 
 
 ---
